@@ -1,0 +1,129 @@
+body{
+    padding: 0px;
+    margin: 0px; 
+    background-color: #d4eeed!important;
+  height:360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-b{
+ margin-top: 20%;
+}
+.navbar-light .nav-item .nav-link:visited {
+  color: #000;
+}
+.cente{
+  margin-top: -20px;
+  font-size: 112px;
+  font-family: 'Caveat', cursive;
+  color: #fff;
+}
+
+#text-one{
+ font-size: 12px;
+}
+#pay-one{
+  font-size: 30px;
+}
+.form-one{
+  height: 40px;
+  width: 262px;
+  border-radius: 6px;
+  border-style: hidden;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.input-btn{
+  position: absolute;
+    left: 779px;
+    bottom: 85px;
+    width: 69px;
+    height: 41px;
+    top: 253px;
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: #64768a;
+    color: #fff;
+}
+.content-one{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 85px;
+}
+.form-move{
+  margin-left: 50px;
+}
+.visa-img{
+  height: 47vh;
+  border-radius: 12px;
+  border-style: hidden;
+  position: relative;
+}
+.sign-move{
+  margin-left: 52px;
+}
+.content-visa{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: #fff;
+}
+#sign{
+  font-size: 14px;
+}
+#fast{
+  font-size: 22px;
+}
+.btn-one{
+  border-radius: 12px;
+  border-style: hidden;
+  padding: 8px;
+  background-color: #5eddcc;
+  color: #fff;
+}
+
+@media  only screen and (max-width: 720px){
+.content-one {
+  display:flex;
+  flex-direction: column; 
+}
+.input-btn{
+  position: absolute;
+  left: 246px;
+  top: 310px;
+}
+.cente{
+  margin-left: 49px;
+  margin-top: -63px;
+}
+#pay-one{
+  font-size: 15px;
+}
+#text-one{
+  font-size: 11px;
+}
+}
+@media  only screen and (max-width: 414px) {
+.input-btn{
+  position: absolute;
+  top: 333px;
+}
+#pay-one{
+  font-size: 20px;
+}
+}
+@media only screen and (min-width: 768px){
+.input-btn{
+  position: absolute;
+  left: 562px;
+}
+}
+@media only screen and (min-width: 1024px) {
+.input-btn{
+  position: absolute;
+  left: 790px;
+}
+}
+
