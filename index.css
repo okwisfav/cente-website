@@ -1,10 +1,13 @@
 body{
     padding: 0px;
     margin: 0px; 
-    background-color: #d4eeed!important;
-  height:360px;
-  background-repeat: no-repeat;
-  background-size: cover;
+   height:360px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+nav{
+  background-color: #d4eeed;
+
 }
 .nav-b{
  margin-top: 20%;
@@ -36,11 +39,11 @@ body{
 
 .input-btn{
   position: absolute;
-    left: 779px;
+    left: 830px;
     bottom: 85px;
     width: 69px;
     height: 41px;
-    top: 253px;
+    top: 229px;
     border-radius: 10px;
     border-style: hidden;
     background-color: #64768a;
@@ -49,26 +52,32 @@ body{
 .content-one{
   display: flex;
   justify-content:space-evenly;
-  margin-top: 85px;
+  padding-top: 85px;
+  background-color: #d4eeed;
+  padding-bottom: 30px;
 }
 .form-move{
   margin-left: 50px;
 }
 .visa-img{
-  height: 47vh;
+  height: 37vh;
   border-radius: 12px;
   border-style: hidden;
   position: relative;
+  margin-top: -27px;
+  position: absolute;
+    left: 602px;
 }
 .sign-move{
-  margin-left: 52px;
+  margin-left: -36px;
 }
 .content-visa{
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 30px;
   padding-top: 100px;
   background-color: #fff;
+    height: 100%;
 }
 #sign{
   font-size: 14px;
@@ -77,23 +86,168 @@ body{
   font-size: 22px;
 }
 .btn-one{
-  border-radius: 12px;
+  border-radius: 26px;
   border-style: hidden;
-  padding: 8px;
+  padding: 12px;
   background-color: #5eddcc;
   color: #fff;
+  margin-right: 40px;
+  width: 118px;
+  /* position: absolute;
+    left: 78px; */
 }
-
+.content-text{
+  background-color: #fff;
+  text-align: center;
+  height: 100%;
+  padding: 40px;
+}
+.smart{
+  margin-top: 30px;
+  font-size: 20px;
+}
+#core{
+  margin: 1px;
+  font-size: 27px
+}
+#bank-open{
+   font-size: 12px;
+   margin-top: 5px;
+}
+#ic{
+  height: 53px;
+  width: 77px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#front-p{
+  font-size: 16px;
+text-align: center;
+}
+#front-text{
+ font-size: 12px;
+ text-align: center;
+}
+.content-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  text-align: left;
+  /* height: 100%; */
+}
+.centee{
+  display: flex;
+   justify-content: space-evenly;
+   margin-top: 60px;
+}
+#cente-one{
+  background: #dbeff0;
+  width: 246px;
+  height: 235px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 80px;
+  font-size: 38px;
+  color: #fff;
+  margin-top: 40px;
+}
+.best-inter{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#trandfer{
+  font-size: 16px;
+}
+#smartway{
+  font-size: 22px;
+}
+.btn-two{
+border-radius: 26px;
+border-style: hidden;
+padding: 12px;
+background-color: #5b6e86;
+color: #fff;
+margin-right: 40px;
+width: 118px;
+}
+#text-content{
+font-size: 12px;
+}
+.content-four{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.snipping{
+  height:298px;
+  margin-top: -50px;
+}
+#gene{
+  font-size: 14px;
+}
+#lang{
+  font-size: 26px;  
+}
+.content-five{
+  padding-left: 70px;
+}
+.foot-end{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+.centre{
+  font-size: 25px;
+  color: #fff;
+}
+#a-part{
+  color: #f7f9fba3;
+  font-size: 13px;
+}
+li{
+  list-style: none;
+  color: #f7f9fba3;
+  font-size: 11px;
+}
+.E-bank{
+  margin-right: 30px;
+}
+.E-banking{
+  text-align: center;
+  margin-top: 60px;
+}
+#e-e{
+  margin-bottom: 0px;
+  text-align: center;
+   font-size: 10px;
+   color: #f7f9fba3;
+}
+#sev{
+  text-align: center;
+  font-size: 17px;
+  color: #f7f9fba3;
+}
+.contact-us{
+  font-size: 14px;
+  color: #f7f9fba3;
+}
+footer{
+  background-color: #5b6e86;
+   height: 80%;
+}
 @media  only screen and (max-width: 720px){
 .content-one {
   display:flex;
   flex-direction: column; 
 }
-.input-btn{
+}
+/* .input-btn{
   position: absolute;
   left: 246px;
   top: 310px;
-}
+} */
 .cente{
   margin-left: 49px;
   margin-top: -63px;
@@ -104,9 +258,36 @@ body{
 #text-one{
   font-size: 11px;
 }
-}
-@media  only screen and (max-width: 414px) {
+/* .content-visa{
+  display: flex;
+  flex-direction: column;
+} */
+/* .btn-one{
+  margin-left: 68px;
+} */
+/* .sign-move{
+margin-left: 20px;
+} */
+/* #bank-text{
+  padding: 3px;
+  margin: 20p;
+  margin: 6px;
+} */
+/* #fast{
+  text-align: center;
+} */
+/* #sign{
+text-align: center;
+margin-top: -55px;
+} */
+/* .visa-img{
+  text-align: center;
+  margin-left: 57px;
+  margin-top: 20px;
+} */
+@media  only screen and (max-width:414px) {
 .input-btn{
+  background: red;
   position: absolute;
   top: 333px;
 }
@@ -114,16 +295,32 @@ body{
   font-size: 20px;
 }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width:769px) and (max-width:900px){
 .input-btn{
   position: absolute;
-  left: 562px;
+  left: 645px;
+  top: 230px;
 }
+#fast{
+  text-align: left;
+}
+#sign{
+  text-align:left;
+}
+.content-visa{
+ display: flex;
+ flex-direction: row;
+}
+.visa-img{
+  margin-top: -66px;
+  height: 203px;
+}
+
 }
 @media only screen and (min-width: 1024px) {
-.input-btn{
+/* .input-btn{
   position: absolute;
   left: 790px;
-}
+} */
 }
 
